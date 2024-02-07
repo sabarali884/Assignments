@@ -1,0 +1,255 @@
+/* Navbar */
+#navbar{
+    display: inline;
+}
+#logo-pic{
+    width: 65%;
+    float: inline-start;
+}
+#tropiko{
+    display: inline;
+}
+#nav-section{
+    padding-top: 25px;
+    width: 35%;
+    float: inline-end;
+}
+#searchicon{
+    width: 25px;
+}
+#nav-section-home{
+    text-decoration: none;
+    color: black;
+    margin-right: 6px;
+}
+#nav-section-fruits{
+    text-decoration: none;
+    color: black;
+    margin-right: 6px;
+}
+#nav-section-service{
+    text-decoration: none;
+    color: black;
+    margin-right: 6px;
+}
+#nav-section-contact{
+    text-decoration: none;
+    color: black;
+    margin-right: 6px;
+}
+#botton{
+    color: white;
+    background-color: darkorange;
+}
+/* HeroSection */
+#herosection{
+    display: inline;
+}
+#written{
+    padding-top: 100px;
+    padding-bottom: 150px;
+    width: 60%;
+    float: inline-start;
+}
+#photo{
+    padding-top: 50px;
+    padding-bottom: 150px;
+    size: 40px;
+    width: 40%;
+    float: inline-end;
+}
+#button1{
+    color: white;
+    background-color: darkorange;
+}
+#button2{
+    color: white;
+    background-color: black;
+}
+/* OurServices */
+#services{
+    width: 100%;
+    display: inline;
+}
+#ourservices{
+    padding-left: 300px;
+    text-align: center;
+}
+#orange{
+    width: 33.33%;
+    float: inline-start;
+}
+#orangeimg{
+    padding-left: 130px;
+}
+#servicecard1{
+    color: red;
+    text-align: center;
+}
+#grapes{
+    width: 33.33%;
+    float: inline-end;
+}
+#grapesimg{
+    padding-left: 130px;
+}
+#servicecard2{
+    color: red;
+    text-align: center;
+}
+#guava{
+    width: 33.33%;
+    float: inline-end;
+}
+#guavaimg{
+    padding-left: 130px;
+}
+#servicecard3{
+    color: red;
+    text-align: center;
+}
+#button3{
+    color: white;
+    background-color: black;
+}
+/* FreshFruits */
+#freshorange{
+    display: inline;
+}
+#button4{
+    color: white;
+    background-color: black;
+}
+#bestfreshorange{
+    width: 70%;
+    float: inline-start;
+    padding-top: 50px;
+}
+#button5{
+    color: white;
+    background-color: black;
+}
+#bestfreshorangeimg{
+    padding-top: 50px;
+    width: 20%;
+    float: inline-end;
+}
+#bestfreshgrapes{
+    width: 70%;
+    float: inline-start;
+    padding-top: 50px;
+}
+#button6{
+    color: white;
+    background-color: black;
+}
+#bestfreshgrapesimg{
+    padding-top: 10px;
+    width: 20%;
+    float: inline-end;
+}
+#bestfreshguava{
+    padding-top: 700px;
+    width: 70%;
+    float: inline-start;
+    padding-top: 50px;
+}
+#button7{
+    color: white;
+    background-color: darkorange;
+}
+#bestfreshguavaimg{
+    padding-top: 50px;
+    width: 20%;
+    float: inline-end;
+}
+/* Testimonila */
+#Testimonial{
+    width: 100%;
+    padding-top: 700px;
+}
+/* ContactUs */
+#contactus{
+    display: inline;
+    margin-bottom: 600px;
+}
+#button8{
+    color: white;
+    background-color: darkorange;
+}
+#contactusdata{
+    width: 80%;
+    float: inline-start;
+}
+#contactusname{
+    margin-top: 100px;
+    border-bottom: 2px;
+}
+#contactusphonenumber{
+    margin-top: 50px;
+    border-bottom: 2px;
+}
+#contactusemail{
+    margin-top: 50px;
+    border-bottom: 2px;
+}
+#contactusmessage{
+    margin-top: 50px;
+    border-bottom: 2px;
+}
+#button7{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+#contactusimg{
+    width: 20%;
+    float: inline-end;
+}
+/* BeforeFooter */
+#beforefooter{
+    display: flex;
+    margin-top: 600px;
+}
+#beforefooterfruits{
+    margin-left: 70px;
+    width: 20%;
+}
+#beforefooterservices{
+    margin-left: 20px;
+    width: 20%;
+}
+#beforefooterlist{
+    margin-left: 20px;
+    width: 20%
+}
+#beforefooterfollowus{
+    margin-left: 20px;
+    width: 20%;
+}
+/* Footer */
+#footer{
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
