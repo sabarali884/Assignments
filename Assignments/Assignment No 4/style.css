@@ -170,6 +170,7 @@
 }
 /* ContactUs */
 #contactus{
+    text-decoration: none;
     display: inline;
     margin-bottom: 600px;
 }
