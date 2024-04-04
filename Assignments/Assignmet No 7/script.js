@@ -45,3 +45,25 @@
 
 
 // 4. Write a js program to check whether a number is divisible by 5 and 11 or not.
+
+// const n1 = prompt("Enter n1")
+
+// if (n1 % 5 === 0 && n1 % 11 === 0) {
+//     console.log('${n1} is divisible by 5 and 11')
+// } else {
+//     console.log('${n1} is not divisible by 5 and 11')
+// }
+
+
+// 5. Write a js program to check whether a number is even or odd
+
+// const p1 = prompt("Enter p1")
+
+// if (p1 % 2 === 0) {
+//     console.log('${p1} is even number')
+// } else {
+//     console.log('${p1} is odd number')
+// }
+
+
+// 6. Write a js program to check whether a year is leap year or not.
