@@ -128,4 +128,92 @@
 //     }
 // }console.log(`Number of days in month ${inputMonthNumber} is ${printDaysInMonth(inputMonthNumber)}.`);
 
+
 // 11. Write a js program to count a minimum number of notes in a given amount.
+
+// let inputAmount = prompt("Enter amount");
+
+// function countMinimumNotes(amount) {
+//     let notes = [5000, 1000, 500, 100, 50, 10, 5, 1];
+//     let count = 0;
+    
+//     for (let i = 0; i < notes.length; i++) {
+//         if (amount >= notes[i]) {
+//             count += Math.floor(amount / notes[i]);
+//             amount %= notes[i];
+//         }
+//     }
+//         return count;
+// }console.log(`Minimum number of notes required for amount ${inputAmount} is ${countMinimumNotes(inputAmount)}.`);
+
+
+// 12. Write a js program to input marks of five subjects Physics, Chemistry,
+// Biology, Mathematics, and Computer. Calculate percentage and grade
+// according to the following:
+// Percentage >= 90% : Grade A
+// Percentage >= 80% : Grade B
+// Percentage >= 70% : Grade C
+// Percentage >= 60% : Grade D
+// Percentage >= 40% : Grade E
+// Percentage < 40% : Grade F
+
+// const physicsMarks = prompt("Enter your physics marks");
+// const chemistryMarks = prompt("Enter your chemistry marks");
+// const biologyMarks = prompt("Enter your biology marks");
+// const mathematicsMarks = prompt("Enter your mathematics marks");
+// const computerMarks = prompt("Enter your computer marks");
+
+// const result = calculateGrade(physicsMarks, chemistryMarks, biologyMarks, mathematicsMarks, computerMarks);
+
+// function calculateGrade(physics, chemistry, biology, mathematics, computer) {
+//     let totalMarks = physics + chemistry + biology + mathematics + computer;
+//     let percentage = (totalMarks / 500) * 100;
+//     let grade;
+
+//     if (percentage >= 90) {
+//         grade = 'A';
+//     } else if (percentage >= 80) {
+//         grade = 'B';
+//     } else if (percentage >= 70) {
+//         grade = 'C';
+//     } else if (percentage >= 60) {
+//         grade = 'D';
+//     } else if (percentage >= 40) {
+//         grade = 'E';
+//     } else {
+//         grade = 'F';
+//     }
+
+//     return { percentage, grade };
+// }
+// console.log(`Percentage: ${result.percentage}%`);
+// console.log(`Grade: ${result.grade}`);
+
+
+// 13. Write a js program to input the basic salary of an employee and calculate
+// its Gross salary according to the following:
+// Basic Salary <= 10000 : HRA = 20%, DA = 80%
+// Basic Salary <= 20000 : HRA = 25%, DA = 90%
+// Basic Salary > 20000 : HRA = 30%, DA = 95%
+
+// const basicSalary = prompt("Enter salary");
+// const grossSalary = calculateGrossSalary(basicSalary);
+
+// function calculateGrossSalary(basicSalary) {
+//     let hra, da;
+
+//     if (basicSalary <= 10000) {
+//         hra = 0.2 * basicSalary;
+//         da = 0.8 * basicSalary;
+//     } else if (basicSalary <= 20000) {
+//         hra = 0.25 * basicSalary;
+//         da = 0.9 * basicSalary;
+//     } else {
+//         hra = 0.3 * basicSalary;
+//         da = 0.95 * basicSalary;
+//     }
+
+//     let grossSalary = basicSalary + hra + da;
+//     return grossSalary;
+// }
+// console.log(`Gross salary for basic salary ${basicSalary} is ${grossSalary}.`);
